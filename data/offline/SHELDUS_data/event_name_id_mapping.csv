@@ -1,0 +1,12 @@
+event_name,event_id
+Hurricane_2017_Harvey,1
+Severe_Weather_2017_June_Midwest,2
+Flooding_2017_California,3
+Flooding:Severe_Weather_2017_April:May_Midwest:Central:Southeast,4
+Hurricane_2017_Irma,5
+Severe_Weather_2017_MN:WI:Upper Midwest,6
+Wildfires_2017_CA,7
+Hurricane_2017_Maria,8
+Severe_Weather_2017_South:Southeast:TX:OK:TN:KY:MS:AL,9
+Tornadoes_2017_South:Southeast,10
+Severe_Weather_2017_CO:OK:TX:NM:MO,11
