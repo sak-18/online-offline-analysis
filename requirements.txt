@@ -1,2 +1,14 @@
 PyQt5==5.15.11
+zstandard==0.23.0
 pandas==2.2.3
+beautifulsoup4==4.12.3
+lxml==5.3.0
+html5lib==1.1
+geopy==2.4.1
+requests==2.32.3
+tqdm==4.67.1
+shapely==2.0.6
+gnews==0.3.9
+geopandas==1.0.1
+spacy==3.8.3
+joblib==1.4.2

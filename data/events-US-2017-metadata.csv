@@ -1,22 +1,20 @@
-Weather and Climate Billion-Dollar Disasters to affect the U.S. in 2017
-Cost values are in millions of dollars
-Name,Disaster,Begin Date,End Date,CPI-Adjusted Cost,Unadjusted Cost,Deaths
-"Southern Tornado Outbreak and Western Storms (January 2017)",Severe Storm,20170120,20170122,1436.5,1105,24
-"California Flooding (February 2017)",Flooding,20170208,20170222,1950,1500,5
-"Central/Southeast Tornado Outbreak (March 2017)",Severe Storm,20170228,20170301,2329.9,1806,6
-"Midwest Tornado Outbreak (March 2017)",Severe Storm,20170306,20170308,2807.2,2176,2
-"Southeast Freeze (March 2017)",Freeze,20170314,20170316,1300,1000,0
-"South/Southeast Severe Weather (March 2017)",Severe Storm,20170326,20170328,3476.6,2695,0
-"Southeast Severe Weather and Tornadoes (April 2017)",Severe Storm,20170404,20170406,1259.2,976,1
-"South and Southeast Severe Weather (April 2017)",Severe Storm,20170420,20170422,1152,893,0
-"Missouri and Arkansas Flooding and Central Severe Weather (May 2017)",Flooding,20170425,20170507,2156.7,1659,20
-"Colorado Hail Storm and Central Severe Weather (May 2017)",Severe Storm,20170508,20170511,4321.5,3350,0
-"North Central Severe Weather and Tornadoes (May 2017)",Severe Storm,20170515,20170518,1214.1,941,1
-"Minnesota Hail Storm and Upper Midwest Severe Weather (June 2017)",Severe Storm,20170609,20170611,3031.5,2350,0
-"Midwest Severe Weather (June 2017)",Severe Storm,20170612,20170616,1931.5,1509,0
-"Midwest Severe Weather (June 2017)",Severe Storm,20170627,20170629,1824,1425,0
-"Hurricane Harvey (August 2017)",Tropical Cyclone,20170825,20170831,160000,125000,89
-"Hurricane Irma (September 2017)",Tropical Cyclone,20170906,20170912,64000,50000,97
-"Hurricane Maria (September 2017)",Tropical Cyclone,20170919,20170921,115200,90000,2981
-"Western Wildfires, California Firestorm (Summer-Fall 2017)",Wildfire,20170601,20171231,23046.4,18005,54
-"North Dakota, South Dakota and Montana Drought (Spring-Fall 2017)",Drought,20170301,20171231,3250,2500,0
+Name,Disaster,Begin Date,End Date,CPI-Adjusted Cost,Unadjusted Cost,Deaths,SHELDUS_Event_Name,SHELDUS_Event_ID,SHELDUS_CLASSIFICATION_CONFIDENCE,Search_Terms_High_Confidence
+Southern Tornado Outbreak and Western Storms (January 2017),Severe Storm,20170120,20170122,1436.5,1105,24,Tornadoes_2017_South:Southeast,10,HIGH,"""tornado"", ""storm"""
+California Flooding (February 2017),Flooding,20170208,20170222,1950,1500,5,Flooding_2017_California,3,HIGH,"""flood"""
+Central/Southeast Tornado Outbreak (March 2017),Severe Storm,20170228,20170301,2329.9,1806,6,,,,
+Midwest Tornado Outbreak (March 2017),Severe Storm,20170306,20170308,2807.2,2176,2,,,,
+Southeast Freeze (March 2017),Freeze,20170314,20170316,1300,1000,0,,,,
+South/Southeast Severe Weather (March 2017),Severe Storm,20170326,20170328,3476.6,2695,0,Severe_Weather_2017_South:Southeast:TX:OK:TN:KY:MS:AL,9,HIGH,"""tornado"", ""hail"",  ""storm"", ""hailstorm"", ""hail storm"""
+Southeast Severe Weather and Tornadoes (April 2017),Severe Storm,20170404,20170406,1259.2,976,1,,,,
+South and Southeast Severe Weather (April 2017),Severe Storm,20170420,20170422,1152,893,0,,,,
+Missouri and Arkansas Flooding and Central Severe Weather (May 2017),Flooding,20170425,20170507,2156.7,1659,20,Flooding:Severe_Weather_2017_April:May_Midwest:Central:Southeast,4,HIGH,"""flood"", ""storm"", ""rain"", ""rainfall"""
+Colorado Hail Storm and Central Severe Weather (May 2017),Severe Storm,20170508,20170511,4321.5,3350,0,Severe_Weather_2017_CO:OK:TX:NM:MO,11,HIGH,"""hail"", ""hailstorm"", ""hail storm"""
+North Central Severe Weather and Tornadoes (May 2017),Severe Storm,20170515,20170518,1214.1,941,1,,,,
+Minnesota Hail Storm and Upper Midwest Severe Weather (June 2017),Severe Storm,20170609,20170611,3031.5,2350,0,Severe_Weather_2017_MN:WI:Upper Midwest,6,HIGH,"""hail"", ""hailstorm"", ""hail storm"""
+Midwest Severe Weather (June 2017),Severe Storm,20170612,20170616,1931.5,1509,0,Severe_Weather_2017_June_Midwest,2,MEDIUM,"""hail"",  ""storm"", ""hailstorm"", ""hail storm"""
+Midwest Severe Weather (June 2017),Severe Storm,20170627,20170629,1824,1425,0,Severe_Weather_2017_June_Midwest,2,MEDIUM,"""hail"",  ""storm"", ""hailstorm"", ""hail storm"""
+Hurricane Harvey (August 2017),Tropical Cyclone,20170825,20170831,160000,125000,89,Hurricane_2017_Harvey,1,HIGH,"""harvey"""
+Hurricane Irma (September 2017),Tropical Cyclone,20170906,20170912,64000,50000,97,Hurricane_2017_Irma,5,HIGH,"""irma"""
+Hurricane Maria (September 2017),Tropical Cyclone,20170919,20170921,115200,90000,2981,Hurricane_2017_Maria,8,HIGH,"""hurricane"", ""maria"""
+"Western Wildfires, California Firestorm (Summer-Fall 2017)",Wildfire,20170601,20171231,23046.4,18005,54,Wildfires_2017_CA,7,HIGH,"""wildfire"""
+"North Dakota, South Dakota and Montana Drought (Spring-Fall 2017)",Drought,20170301,20171231,3250,2500,0,"Severe_Weather_2017_June_Midwest, Severe_Weather_2017_MN:WI:Upper Midwest","2,6",LOW,"""drought"""
