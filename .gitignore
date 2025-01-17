@@ -8,7 +8,8 @@ data/reddit/misc/
 data/reddit/reddit_data/
 data/reddit/central_zst_storage/
 data/reddit/scripts/*.log
-data/reddit/central_zst_storage.zip
+data/reddit/*.zip
+data/reddit/scripts/misc/
 qgis/reddit_shp/
 qgis/sheldus_shp/SHELDUS_county_level.cpg
 qgis/sheldus_shp/SHELDUS_county_level.dbf

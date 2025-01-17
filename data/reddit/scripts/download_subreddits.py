@@ -7,7 +7,7 @@ from tqdm import tqdm
 # Constants
 CENTRAL_ZST_STORAGE = "../central_zst_storage"
 DISASTER_METADATA_CSV = "../../../data/events-US-2017-metadata.csv"
-COMMUNITY_METADATA_CSV = "../county_joined_subreddits.csv"
+COMMUNITY_METADATA_CSV = "../assets/county_joined_subreddits.csv"
 
 # Ensure the central storage directory exists
 os.makedirs(CENTRAL_ZST_STORAGE, exist_ok=True)

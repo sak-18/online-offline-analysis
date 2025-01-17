@@ -61,7 +61,7 @@ def query_nominatim(city, state):
     """
     url = "https://nominatim.openstreetmap.org/search"
     headers = {
-        "User-Agent": "GeoProcessor/1.0 (your_email@example.com)"  # Replace with your app details
+        "User-Agent": "GeoProcessor/1.0 (svishnu6@asu.edu)"  # Replace with your app details
     }
     params = {"q": f"{city}, {state}, USA", "format": "json", "addressdetails": 1}
     
@@ -135,6 +135,6 @@ def enrich_csv(input_file, output_file):
 
 # Example usage
 if __name__ == "__main__":
-    input_csv = "../geolocated_subreddits.csv"  # Replace with your input file name
-    output_csv = "../geolocated_subreddits_filled.csv"  # Replace with your output file name
+    input_csv = "../assets/matched_subreddits.csv"  # Replace with your input file name
+    output_csv = "../assets/geolocated_subreddits.csv"  # Replace with your output file name
     enrich_csv(input_csv, output_csv)

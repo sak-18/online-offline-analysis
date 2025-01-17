@@ -2,8 +2,8 @@ import csv
 import re
 
 # Input and output file paths
-input_file = "../location_reddit.md"  # Replace with your actual Markdown file path
-output_csv = "../us_state_subreddits_with_r.csv"
+input_file = "../assets/location_reddit.md"  # Replace with your actual Markdown file path
+output_csv = "../assets/us_state_subreddits_with_r.csv"
 
 # Regex patterns for headings and subreddit links
 start_section = r"^####United States$"  # Matches the United States heading

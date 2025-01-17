@@ -2,7 +2,7 @@ import re
 import csv
 
 # Load the HTML content
-with open("../push_shift_archive_source.html", "r", encoding="utf-8") as file:
+with open("../assets/push_shift_archive_source.html", "r", encoding="utf-8") as file:
     html_content = file.read()
 
 # Patterns for extracting rows and data
@@ -37,7 +37,7 @@ for row in parsed_rows[:5]:  # Show only the first 5 rows for brevity
     print(row)
 
 # Write to CSV
-output_file = "../output.csv"
+output_file = "../assets/output.csv"
 with open(output_file, "w", newline="", encoding="utf-8") as csv_file:
     writer = csv.writer(csv_file)
     writer.writerow(["Subreddit", "Submissions", "Comments"])  # Add headers
