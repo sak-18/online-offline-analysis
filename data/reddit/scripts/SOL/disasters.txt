@@ -1,0 +1,11 @@
+Tornadoes_2017_South:Southeast
+Flooding_2017_California
+Severe_Weather_2017_South:Southeast:TX:OK:TN:KY:MS:AL
+Flooding:Severe_Weather_2017_April:May_Midwest:Central:Southeast
+Severe_Weather_2017_CO:OK:TX:NM:MO
+Severe_Weather_2017_MN:WI:Upper Midwest
+Severe_Weather_2017_June_Midwest
+Hurricane_2017_Harvey
+Hurricane_2017_Irma
+Hurricane_2017_Maria
+Wildfires_2017_CA
